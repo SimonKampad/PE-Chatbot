@@ -1,0 +1,26 @@
+{
+  "name": "fitbuddy-ai",
+  "version": "1.0.0",
+  "description": "FitBuddy AI - Gym Fitness Assistant Chatbot for College Prompt Engineering Assignment No. 11",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --dns-result-order=ipv4first server.js",
+    "dev": "node --dns-result-order=ipv4first --watch server.js"
+  },
+  "keywords": [
+    "prompt-engineering",
+    "gemini-api",
+    "fitness-chatbot",
+    "express",
+    "nodejs"
+  ],
+  "author": "FitBuddy AI Team",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^0.2.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0"
+  }
+}
